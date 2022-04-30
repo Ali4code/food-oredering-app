@@ -1,0 +1,4 @@
+use reducer instead of use state (optional)
+refactor adding food function to use data sent through props and you dont need to use .filter()
+use ref and forward ref to collect input data instead of on change state changeing
+use cart context to save total amount rome add and ... and try to limit your this kind of function to context file

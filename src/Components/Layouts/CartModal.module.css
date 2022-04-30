@@ -1,0 +1,54 @@
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.modal {
+
+    align-self: center;
+    position: fixed;
+    width: 50%;
+    height: 50vh;
+    z-index: 11;
+    top: 20%;
+    overflow: scroll;
+    list-style-type: none;
+}
+
+.li {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.npbtn {
+    border: solid rgb(126, 19, 19);
+    border-radius: .5rem;
+    color: rgb(126, 19, 19);
+    width: 40px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: white;
+    line-height: 0px;
+    margin: 3px;
+}
+
+.total-div {
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
